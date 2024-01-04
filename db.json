@@ -1,0 +1,25 @@
+{
+    "loginId": {
+        "required": "APP_USERNAME_REQUIRED"
+    },
+    "password": {
+        "required": "APP_PASSWORD_REQUIRED",
+        "minLength": {
+            "value": 6,
+            "message": "APP_PASSWORD_MIN_LENGTH"
+        }
+    },
+    "email": {
+    "required": "APP_EMAIL_REQUIRED",
+    "pattern": {
+      "value": "^\\w+([\\.-]?\\w+)*@\\w+([\\.-]?\\w+)*(\\.\\w\\w+)+$",
+      "message": "APP_INVALID_EMAIL"
+    }
+  },
+    "nric": {
+        "required": "APP_NRIC_REQUIRED"
+    },
+    "pin": {
+        "required": "APP_PIN_REQUIRED"
+    }
+}
