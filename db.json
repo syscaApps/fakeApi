@@ -19,11 +19,41 @@
                 "message": "APP_INVALID_EMAIL"
             }
         },
-        "nric": {
-            "required": "APP_NRIC_REQUIRED"
+        "name": {
+            "required": "APP_IS_REQUIRED"
         },
-        "pin": {
-            "required": "APP_PIN_REQUIRED"
+        "dob": {
+            "required": "APP_IS_REQUIRED"
+        },
+        "gender": {
+            "required": "APP_IS_REQUIRED"
+        },
+        "nric": {
+            "required": "APP_IS_REQUIRED"
+        }, 
+        "location": {
+            "required": "APP_IS_REQUIRED"
+        }, 
+        "nationality": {
+            "required": "APP_IS_REQUIRED"
+        },
+        "country": {
+            "required": "APP_IS_REQUIRED"
+        }, 
+        "state": {
+            "required": "APP_IS_REQUIRED"
+        },
+        "receiver": {
+            "required": "APP_IS_REQUIRED"
+        },
+        "contact": {
+            "required": "APP_IS_REQUIRED"
+        },
+        "address": {
+            "required": "APP_IS_REQUIRED"
+        },
+        "postcode": {
+            "required": "APP_IS_REQUIRED"
         }
     }
 }
