@@ -1,10 +1,10 @@
 {
     "memberValidator":{
         "loginId": {
-            "required": "APP_USERNAME_REQUIRED"
+            "required": "APP_IS_REQUIRED"
         },
         "password": {
-            "required": "APP_PASSWORD_REQUIRED",
+            "required": "APP_IS_REQUIRED",
             "validate": {
                 "length": "(value) => value && value.length > 6 || 'APP_PASSWORD_MIN_LENGTH'",
                 "lowwercase": "(value) => value && /[a-z]/.test(value) || 'APP_CONTAIN_UPPERCASE'", 
@@ -13,7 +13,7 @@
             }
         },
         "email": {
-            "required": "APP_EMAIL_REQUIRED",
+            "required": "APP_IS_REQUIRED",
             "pattern": {
                 "value": "^\\w+([\\.-]?\\w+)*@\\w+([\\.-]?\\w+)*(\\.\\w\\w+)+$",
                 "message": "APP_INVALID_EMAIL"
