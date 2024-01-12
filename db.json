@@ -60,6 +60,9 @@
         },
         "mobileTel": {
             "required": "APP_IS_REQUIRED"
+        },
+        "pin": {
+            "required": "APP_IS_REQUIRED"
         }
     }
 }
