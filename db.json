@@ -54,6 +54,12 @@
         },
         "postcode": {
             "required": "APP_IS_REQUIRED"
+        },
+        "mailingAddress": {
+            "required": "APP_IS_REQUIRED"
+        },
+        "mobileTel": {
+            "required": "APP_IS_REQUIRED"
         }
     }
 }
